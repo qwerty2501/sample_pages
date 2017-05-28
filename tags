@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddPasswordDigestToUsers	db/migrate/20170516141920_add_password_digest_to_users.rb	/^class AddPasswordDigestToUsers < ActiveRecord::Migration[5.1]$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:SampleApp
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateUsers	db/migrate/20170514070856_create_users.rb	/^class CreateUsers < ActiveRecord::Migration[5.1]$/;"	c
+SampleApp	config/application.rb	/^module SampleApp$/;"	m
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsControllerTest	test/controllers/sessions_controller_test.rb	/^class SessionsControllerTest < ActionDispatch::IntegrationTest$/;"	c
+SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+SiteLayoutTest	test/integration/site_layout_test.rb	/^class SiteLayoutTest < ActionDispatch::IntegrationTest$/;"	c
+StaticPagesController	app/controllers/static_pages_controller.rb	/^class StaticPagesController < ApplicationController$/;"	c
+StaticPagesControllerTest	test/controllers/static_pages_controller_test.rb	/^class StaticPagesControllerTest < ActionDispatch::IntegrationTest$/;"	c
+StaticPagesHelper	app/helpers/static_pages_helper.rb	/^module StaticPagesHelper$/;"	m
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionDispatch::IntegrationTest$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersLoginTest	test/integration/users_login_test.rb	/^class UsersLoginTest < ActionDispatch::IntegrationTest$/;"	c
+UsersSignupTest	test/integration/users_signup_test.rb	/^class UsersSignupTest < ActionDispatch::IntegrationTest$/;"	c
+about	app/controllers/static_pages_controller.rb	/^  def about; end$/;"	f	class:StaticPagesController
+change	db/migrate/20170514070856_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20170516141920_add_password_digest_to_users.rb	/^  def change$/;"	f	class:AddPasswordDigestToUsers
+contact	app/controllers/static_pages_controller.rb	/^  def contact; end$/;"	f	class:StaticPagesController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+current_user	app/helpers/sessions_helper.rb	/^  def current_user$/;"	f	class:SessionsHelper
+destroy	app/controllers/sessions_controller.rb	/^  def destroy; end$/;"	f	class:SessionsController
+full_title	app/helpers/application_helper.rb	/^  def full_title(page_title = '')$/;"	f	class:ApplicationHelper
+gravatar_for	app/helpers/users_helper.rb	/^  def gravatar_for(user, size: 80)$/;"	f	class:UsersHelper
+help	app/controllers/static_pages_controller.rb	/^  def help; end$/;"	f	class:StaticPagesController
+home	app/controllers/static_pages_controller.rb	/^  def home; end$/;"	f	class:StaticPagesController
+log_in	app/helpers/sessions_helper.rb	/^  def log_in(user)$/;"	f	class:SessionsHelper
+logged_in?	app/helpers/sessions_helper.rb	/^  def logged_in?$/;"	f	class:SessionsHelper
+new	app/controllers/sessions_controller.rb	/^  def new; end$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+setup	test/controllers/static_pages_controller_test.rb	/^  def setup$/;"	f	class:StaticPagesControllerTest
+setup	test/models/user_test.rb	/^  def setup$/;"	f	class:UserTest
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+user_params	app/controllers/users_controller.rb	/^  def user_params$/;"	f	class:UsersController
