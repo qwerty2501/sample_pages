@@ -45,4 +45,29 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     end
     assert_redirected_to root_url
   end
+
+  test 'should redirect following when not logged in' do
+    get following_user_path(@user)
+    assert_redirected_to login_url
+  end
+
+  test 'should redirect followers when not logged in' do
+    get followers_user_path(@user)
+    assert_redirected_to login_url
+  end
+
+  test 'feed should have the right posts' do
+    michael = users(:michael)
+    archer  = users(:archer)
+    lana    = users(:lana)
+    lana.microposts.each do |post_following|
+      assert michael.feed.include?(post_following)
+    end
+    michael.microposts.each do |post_self|
+      assert michael.feed.include?(post_self)
+    end
+    archer.microposts.each do |post_unfollowed|
+      assert_not michael.feed.include?(post_unfollowed)
+    end
+  end
 end
